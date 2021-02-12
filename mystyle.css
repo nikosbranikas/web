@@ -1,0 +1,30 @@
+input {
+  width: 250px;
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+	background-color: #49ACF4;
+}
+input[type=submit]:hover {
+  background-color: #496FF4;
+}
+form {
+	text-align: center;
+	border-radius: 5px;
+    background-color: #f2f2f2;
+	padding: 5px;
+	margin: auto;
+	margin-top: 12%;
+	border-radius: 4px;
+	width: 350px;
+  
+}
+.error {
+	color: #FF0000;
+	text-align: center;
+}
